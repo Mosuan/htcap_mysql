@@ -39,7 +39,7 @@ CREATE TABLE `request` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `taskid` int(11) DEFAULT NULL,
   `method` varchar(255) NOT NULL COMMENT '请求类型',
-  `host` varchar(255) DEFAULT NULL COMMENT '请求地址',,
+  `host` varchar(255) DEFAULT NULL COMMENT '请求地址',
   `url` varchar(255) NOT NULL COMMENT '地址',
   `data` text COMMENT '参数',
   `referer` varchar(255) DEFAULT NULL COMMENT '来路',
